@@ -1,41 +1,11 @@
- /* .header {
-    background: rgb(223, 118, 48);
-    display: flex;
-    border-style: solid;
-    flex-direction: row;
-    height:130px;
-    align-items: center
-}
 
-.logo {
-    flex:1;
-    width: 100px;
-    text-align: center;
-    
-}
-.container{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end
-    align-items: center;
-    
-}
-
-.buttons {
-    background-color: #4CAF50;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 22px;
-    font-family: sans-serif;
-    margin: 4px 2px;
-    display: flex;
-    justify-content: space-between; */
-
-        
 body {
     margin:0px;
+    background: #6b5b95;
+}
+
+.fas{
+    color: blue;
 }
 
 .wrapper{
@@ -45,66 +15,77 @@ body {
 }
 
 .banner {
-    background: blue;
+    background: cornflowerblue;
     flex:1;
     display: flex;
     flex-direction: row;
+    border:solid;
 }
 
 .empty_box {
     flex:2;
-    background: green;
+    display: flex;
+    background: cornflowerblue;
+    justify-content: center;
+    align-items: center
 }
 
 .circle {
     justify-content: center;
     flex:1;
+    display: flex;
+    
 }
 
 .logo {
-    max-width: 100%;
+    /* max-width: 100%; */
     max-height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .i{
     flex:2;
     display: flex;
-    background: yellow;
+    background: cornflowerblue;
     justify-content: center;
     align-items: center
 
 }
 
 .buttons {
-    background: red;
     flex:5;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    
 
 }
 
 .buttons > * {
     flex: 1;
-    padding: 15px 32px;
-    background: gray;
+    display: flex;
+    background: darkgreen;
     width: 100%;
-    text-align: center;
+    border:solid;
+    color: white;
+    margin:5px;
     border-radius: 10px;
     font-size: 22px;
     font-family: sans-serif;
+  
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
 }
 
 
-/* background-color: #4CAF50;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 22px;
-    font-family: sans-serif;
-    margin: 4px 2px;
-    display: flex;
-    justify-content: space-between; */
+/******************* Locations ****************/
+
+.bodycontent {
+    flex:5
+}
