@@ -12,11 +12,38 @@
 
 <body>
 
-    <a href = "info.html"><i class="fas fa-info"></i></a>
-    <img src="nysl_logo.png">
-    
+    <div class="wrapper">
+        <div class="banner">
+            <div class="empty_box">
+                <a href="index.html"><i class="fas fa-home fa-4x"></i></a>
+            </div>
+            <div class="circle">
+                <img class="logo" src="nysl_logo.png">
+            </div>
+            <div class="i">
+                <a href="info.html"><i class="fas fa-info fa-4x"></i></a>
+            </div>
+        </div>
 
+        <div class="bodycontent">
+                <p>Please email us at <a href="nysl@chisoccer.org?"> nysl@chisoccer.org</a> We will reply to your email as soons as we can</p>
+        </div>
 
+    </div>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+<script>
+// Initialize Firebase
+var config = {
+    apiKey: "AIzaSyDhMgBtvqQHysBzqkYyWJj8yP0zqYzcRc0",
+    authDomain: "mobile-soccer-app.firebaseapp.com",
+    databaseURL: "https://mobile-soccer-app.firebaseio.com",
+    projectId: "mobile-soccer-app",
+    storageBucket: "mobile-soccer-app.appspot.com",
+    messagingSenderId: "159740884733"
+};
+firebase.initializeApp(config);
+</script>
 
 
 </body>
